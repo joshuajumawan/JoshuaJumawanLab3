@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Style">
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/CustomFontStyle"
+        android:layout_width="383dp"
+        android:layout_height="64dp"
+        android:fontFamily="@font/abril_fatface"
+        android:gravity="center"
+        android:text="LAB ACTIVITY 3"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="384dp"
+        android:layout_height="276dp"
+        app:srcCompat="@drawable/Intramuros"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/CustomFontStyle"
+        android:layout_width="383dp"
+        android:layout_height="53dp"
+        android:fontFamily="@font/abril_fatface"
+        android:gravity="center"
+        android:text="INTRAMUROS"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/CustomFontStyle"
+        android:layout_width="97dp"
+        android:layout_height="39dp"
+        android:fontFamily="@font/abril_fatface"
+        android:text="Location:"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="394dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="259dp"
+        android:layout_height="87dp"
+        android:fontFamily="@font/abril_fatface"
+        android:text="Bonifacio Dr & Padre Burgos St, Manila, Luzon 1002 Philippines"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="394dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        style="@style/CustomFontStyle"
+        android:layout_width="186dp"
+        android:layout_height="35dp"
+        android:fontFamily="@font/abril_fatface"
+        android:text="Distance From UST:"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="482dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="197dp"
+        android:layout_height="32dp"
+        android:fontFamily="@font/abril_fatface"
+        android:text="4.3 km"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="194dp"
+        tools:layout_editor_absoluteY="481dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="517dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="517dp" />
+</android.support.constraint.ConstraintLayout>
